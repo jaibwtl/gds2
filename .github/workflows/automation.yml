@@ -1,9 +1,9 @@
 name: Main-CI
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "automation" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "automation" ]
 jobs:
   build:
     runs-on: ubuntu-latest
